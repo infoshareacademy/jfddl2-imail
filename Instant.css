@@ -1,0 +1,10 @@
+body{
+    font-family: Arial;
+    font-size:12px;
+    background-color:lavender;
+    font-color:white;
+
+}
+#container{
+    background-image: url('background.jpg');
+}

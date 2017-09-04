@@ -1,0 +1,174 @@
+body{
+    font-family: /"Arial";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #323e4f;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: #323e4f;
+    text-decoration: none;
+}
+
+/*header*/
+header{
+    text-align: center;
+    padding: 20px 0;
+    padding-top: 50px;
+}
+
+header img{
+    display: inline;
+    max-width: 200px;
+}
+
+header h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+/*navigation*/
+.navigation{
+    background-color: #AF1F24;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+.navigation li{
+    list-style: none;
+}
+
+.navigation li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*main*/
+.main{
+    width: 70%;
+
+
+
+}
+.banner{
+    background: url(images/main-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+.banner h2{
+    color: #fff;
+}
+
+a.more{
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background: #0d1931;
+    border-radius: 5px;
+}
+a.more:hover{
+    background: #AF0000;
+}
+
+.main article{
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+.main article h2{
+    color: #AF1F24;
+}
+.img-left{
+    float: left;
+    margin-right: 20px;
+    max-width: 50%;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+.offer div{
+    background: #bfbfbf;
+    padding: 20px;
+    max-width: 150px;
+    margin-bottom: 20px;
+
+}
+.offer div.special{
+    align-self:flex-end;
+    order:-1;
+}
+
+/*aside*/
+aside{
+    width: 25%;
+    float: right;
+    margin-left: 5%;
+}
+aside section{
+    margin-bottom: 30px;
+}
+aside section h3{
+    background-color: #AF1F24;
+    color:#fff;
+    margin-top:0;
+    padding: 5px;
+}
+aside section ul{
+    margin: 0;
+    padding: 0;
+}
+aside section ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+aside section a:hover{
+    text-decoration: underline;
+}
+
+/*footer*/
+footer{
+    background: #F4F4F4;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    margin: 0;
+}
