@@ -1,20 +1,49 @@
-#container{
+#container {
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
-h1{
+
+h1 {
     text-align: center;
     font-style: oblique;
 }
-p{
+
+p {
     text-align: center;
 }
-img{
+
+img {
     width: 20%;
     margin-left: 2%;
 }
-.img{
-    text-align: left;
-    color: #000000;
 
+.img {
+    text-align: center;
+    color: #000000;
+}
+
+.teamphoto {
+    height: auto;
+    width: 100%;
+    padding: 1em;
+    display: table;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.user {
+    text-align: center;
+    display: table-cell;
+    width: auto;
+
+}
+
+.address {
+    text-align: left;
+}
+
+footer {
+    background-color: #5e5e5e;
+}
