@@ -1,0 +1,88 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, arial;
+    /*font-size: 15px */
+}
+
+#container {
+    width: auto;
+    height: 950px ;
+    background-image: url('postbox.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    position: relative;
+    font-size: 16px;
+}
+
+
+h1  {
+    color: grey;
+    font-size: 30px;
+    text-shadow: 0 4px 8px grey;
+}
+
+section {
+    padding: 10px 30px;
+    height: auto;
+    width: 50%;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+
+}
+
+article {
+    margin: 10px 0 20px 0;
+    color: grey;
+    padding: 10px 10px;
+
+
+}
+
+
+footer  {
+    background-color:black;
+    height: 40px;
+    color: white;
+    text-align-last: center;
+    padding: 10px;
+}
+
+
+a.menu {
+    display:inline-block;
+    width: 8%;
+    padding: 7px 25px 0px 80px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+a.menu:hover {
+    color: greenyellow;
+}
+
+.navbar-brand { position: relative; z-index: 2; font-size: 25px;
+}
+
+
+.navbar-brand {
+        color:red;
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; }
+
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+}
+
