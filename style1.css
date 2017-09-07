@@ -1,7 +1,11 @@
 #container {
-    background-image: url('bg.jpg');
+    background-image: url('postbox.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    display: block;
+    height: 950px;
 }
 
 h1 {
@@ -14,8 +18,8 @@ p {
 }
 
 img {
-    width: 20%;
-    margin-left: 2%;
+    max-width: 150px;
+    height: auto;
 }
 
 .img {
@@ -37,7 +41,7 @@ img {
     text-align: center;
     display: table-cell;
     width: auto;
-
+    min-width: 200px;
 }
 
 .address {
@@ -46,4 +50,16 @@ img {
 
 footer {
     background-color: #5e5e5e;
+}
+
+section {
+    background-color: white;
+    height: auto;
+    width: 70%;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    padding: 10px, 30px;
 }

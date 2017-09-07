@@ -2,15 +2,34 @@
 .heading {
     text-align: center;
 }
+
 h1, h2, h3, h4, p {
     text-align: center;
     color: black;
 }
-footer{
+
+footer {
     background-color: #5e5e5e;
 }
-#container{
-    background-image: url('bg.jpg') ;
-    background-repeat:no-repeat;
-    background-size: 100%;
+
+#container {
+    background-image: url('postbox.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    display: block;
+    height: 950px;
+}
+
+section {
+    background-color: white;
+    height: auto;
+    width: 50%;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    padding: 10px, 30px;
 }
