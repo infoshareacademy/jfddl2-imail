@@ -6,11 +6,16 @@
     width: auto;
     display: block;
     height: 950px;
+    border-radius: 25px;
 }
 
 h1 {
     text-align: center;
     font-style: oblique;
+}
+
+h2 {
+    text-align: center;
 }
 
 p {
@@ -23,8 +28,10 @@ img {
 }
 
 .img {
-    text-align: center;
+    text-align: left;
     color: #000000;
+    font-style: italic;
+
 }
 
 .teamphoto {
@@ -42,6 +49,7 @@ img {
     display: table-cell;
     width: auto;
     min-width: 200px;
+
 }
 
 .address {
@@ -50,6 +58,7 @@ img {
 
 footer {
     background-color: #5e5e5e;
+    border-radius: 25px;
 }
 
 section {
@@ -62,4 +71,8 @@ section {
     top: 50%;
     transform: translate(-50%, -70%);
     padding: 10px, 30px;
+}
+
+.address {
+    text-align: center;
 }
