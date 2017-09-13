@@ -107,14 +107,14 @@ article {
 
 
 
-footer  {
-    background-color:black;
-    height: 140px;
-    color: white;
+/*footer  {*/
+    /*background-color:black;*/
+    /*height: 140px;*/
+    /*color: white;*/
     text-align-last: center;
-    padding: 10px;
-    margin-bottom: 30px;
-}
+    /*padding: 10px;*/
+    /*margin-bottom: 30px;*/
+/*}*/
 
 
 .navigation {
@@ -303,7 +303,7 @@ footer  {
     height: auto;
     width: auto;
     padding-top: 100px;
-    padding-bottom: 345px;
+    /*padding-bottom: 345px;*/
     margin-top: 1.5px;
     font-size: 1.1em;
     font-family: 'Ubuntu', sans-serif;
@@ -405,14 +405,13 @@ footer.nb-footer .footer-info-single p {
     color: #aaa;
 }
 
-footer.nb-footer .copyright {
-    margin-top: 15px;
-    background: #111;
-    padding: 7px 0;
-    color: #999;
-}
+/*footer.nb-footer .copyright {*/
+    /*margin-top: 15px;*/
+    /*background: #111;*/
+    /*padding: 7px 0;*/
+    /*color: #999;*/
+/*}*/
 
-footer.nb-footer .copyright p {
-    margin: 0;
-    padding: 0;
-}
+/*footer.nb-footer .copyright p {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
