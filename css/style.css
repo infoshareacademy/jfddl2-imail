@@ -303,7 +303,7 @@ footer  {
     height: auto;
     width: auto;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 345px;
     margin-top: 1.5px;
     font-size: 1.1em;
     font-family: 'Ubuntu', sans-serif;
@@ -337,7 +337,6 @@ h3 {
 }
 
 footer.nb-footer {
-    background: #222;
     border-top: 4px solid #b78c33;
 }
 
