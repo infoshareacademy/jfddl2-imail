@@ -7,7 +7,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>$().ready(function() {
+        var sName = "cookiesok";
+        $("#close-cookie-warn").click(function(){
+            var oExpire = new Date();
+            oExpire.setTime((new Date()).getTime() + 2000);
+            document.cookie = sName + "=1;expires=" + oExpire;
+            $("#cookie-warn").hide("slow");
+        });
 
+        var sStr = '; '+ document.cookie +';';
+        var nIndex = sStr.indexOf('; '+ escape(sName) +'=');
+        if (nIndex === -1) {
+            $("#cookie-warn").show();
+        }
+    });</script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -209,5 +224,12 @@
                 </div>
             </form>
         </div>
-
+        <section id="cookie-warn">
+            <p><strong>UWAGA!</strong> Niniejsza strona wykorzystuje pliki cookies.
+                Informacje uzyskane za pomocą cookies wykorzystywane są głównie
+                w celach statystycznych. Pozostając na stronie godzisz się na
+                ich zapisywanie w Twojej przeglądarce.
+               <br> <a href="javascript:void(0);" id="close-cookie-warn"
+                >Zamknij ostrzeżenie</a></p>
+        </section>
 </body>
