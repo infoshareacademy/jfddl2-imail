@@ -59,15 +59,32 @@ h1, h2 {
 
 
 #wrapper {
-    /*width: auto;*/
+    /*width: 25px;/
     /*height: 800px ;*/
-    /*background-image: url('pictures/bg_picture2.jpg');*/
+    /*background-image: url("pictures/bg_picture.jpg");
     /*background-repeat: no-repeat;*/
     /*background-position: left top;*/
-    /*background-size: cover;*/
-    /*position: relative;*/
+    background-size: cover;
+    position: relative;
     font-size: 16px;
 }
+
+/*zdjecie*/
+
+    .zdjecie {
+        width: 100vw;
+        margin: auto;
+        margin-top:0;
+        height: 40vw;
+    }
+
+    .bg {
+        margin:-5px;
+    }
+
+
+
+
 
 
 
@@ -75,6 +92,7 @@ h1  {
     color: green;
     font-size: 30px;
     text-shadow: 0 4px 8px grey;
+
 }
 
 .home {
