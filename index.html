@@ -7,85 +7,77 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
-
+    <link href="css/animate.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+
     <title>instantMail - Wysyłaj z nami !!</title>
 </head>
-
+      
 <body>
+<a name="home"></a>
 <!-- Navigation -->
-<div class="header" id="agilehome">
+<div class="bg-item2" style="height:110px;">
+    <header>
+        <div id="bgBlack" class="container-fluid mg ">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header ">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Main-navbar">
+                            <span class="icon-bar bg-white"></span>
+                            <span class="icon-bar bg-white"></span>
+                            <span class="icon-bar bg-white"></span>
+                        </button>
+                        <a class="navbar-brand brand " href="#">
+                            <img src="pictures/logo.png" alt="logo" class="pull-left animated bounceIn"/>
+                            <h4 id="sitename" class="text-white mg mg-t-5 animated fadeInRight">instantMail</h4>
+                            <h4 id="slogan" class="text-white mg animated fadeInRight">wysyłke zrobimy za Ciebie</h4>
+                        </a>
+                    </div>
 
-    <div class="navigation">
+                    <div class="collapse navbar-collapse " id="Main-navbar">
+                        <ul class="nav navbar-nav ">
+                            <li id="#home">
+                                <a href="#">Strona główna</a>
+                            </li>
 
-        <div class="nav-grids">
-            <div class="ch-grid">
-
-                <div class="col-md-3 nav-grid nav-grid1">
-                    <div class="ch-item ch-img-1">
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-file-text-o" aria-hidden="true"></i>
-                                </div>
-                                <div class="ch-info-back">
-                                    <h3><a class="scroll" href="#produkt">PRODUKT</a></h3>
-                                </div>
-                            </div>
-                        </div>
+                            <li class="dropdown">
+                                <a href="#product" class="dropdown-toggle" data-toggle="dropdown">Produkt<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="<?php echo base_url() ?>juniorcollege">About us</a></li>
+                                    <li><a href="<?php echo base_url() ?>course">Course</a></li>
+                                    <li><a href="<?php echo base_url() ?>admission">Admission</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="<?php echo base_url() ?>prayas">Zagraj w gre</a>
+                            </li>
+                            <li id="studentmyprofile-1">
+                                <a href="#aboutus">Zespół</a>
+                            </li>
+                            <li id="gallery-1">
+                                <a href="#contact">Kontakt</a>
+                            </li>
+                            <li id="contact-1">
+                                <a href="#nletter">Newsletter</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-3 nav-grid nav-grid2">
-                    <div class="ch-item ch-img-2">
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-briefcase" aria-hidden="true"></i>
-                                </div>
-                                <div class="ch-info-back">
-                                    <h3><a class="scroll" href="#game">GRA</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 nav-grid nav-grid3">
-                    <div class="ch-item ch-img-3">
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-users" aria-hidden="true"></i></div>
-                                <div class="ch-info-back">
-                                    <h3><a class="scroll" href="#aboutus">O NAS</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 nav-grid nav-grid4">
-                    <div class="ch-item ch-img-4">
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                                <div class="ch-info-back">
-                                    <h3><a class="scroll cont" href="#contact">KONTAKT</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
+            </nav>
         </div>
-
-    </div>
-    <!-- //Navigation -->
+    </header>
+</div>
+<!-- //Navigation -->
 
 </div>
 
 
-<!--karuzela start +++++++++++++++++ -->
+ <!--karuzela start +++++++++++++++++ -->
 
 <div id="carousel-example-generic2" class="carousel slide">
     <!-- Wskaźniki w postaci kropek -->
@@ -137,37 +129,26 @@
 
 <div id="wpapper">
     <section class="home">
-        <article class="zajawka">Efektywny mailing to nasza specjalność... :-) <br>Sprawdź nas.</article>
-        <img style="display: block;" src="pictures/logo.png" alt=""/>
+        <article class="zajawka">Efektywny mailing to nasza specjalność... :-) <br>Sprawdź nas. </article>
+        <img style="display: block;" src="pictures/logo.png" alt="" />
 
     </section>
 
 </div>
-<a name="produkt"></a>
+<a name="product"></a>
 <div class="produkt">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
                 <h3 class="newsletter">NEWSLETTER</h3>
-                <p>Jest to elektroniczna forma biuletynu - czasopisma rozsyłanego za pomocą poczty elektronicznej do
-                    prenumeratorów. Mają za zadanie informować klientów o nowościach, ofertach, aktualizacjach w obrębie
-                    danego tematu. Newslettery powinny mieć stały wygląd, aby przyzwyczajać klientów do układu i wyglądu
-                    strony. Powinna być również zachowana jednakowa częstotliwość wysyłania wiadomości. Codziennie, co
-                    tydzień, co miesiąc. Nalezy pamiętać o dodaniu czegoś ,,extra”, dzięki czemu oferta zawarta w
-                    newsletterze jest bardziej atrakcyjna w porównaniu z tym, co klient może dostać np w sklepie. Taki
-                    zabieg ma na celu zachęcenie klienta do zwrócenia uwagi na ofertę firmy.</p>
+                <p>Jest to elektroniczna forma biuletynu - czasopisma rozsyłanego za pomocą poczty elektronicznej do prenumeratorów. Mają za zadanie informować klientów o nowościach, ofertach, aktualizacjach w obrębie danego tematu. Newslettery powinny mieć stały wygląd, aby przyzwyczajać klientów do układu i wyglądu strony. Powinna być również zachowana jednakowa częstotliwość wysyłania wiadomości. Codziennie, co tydzień, co miesiąc. Nalezy pamiętać o dodaniu czegoś ,,extra”, dzięki czemu oferta zawarta w newsletterze jest bardziej atrakcyjna w porównaniu z tym, co klient może dostać np w sklepie. Taki zabieg ma na celu zachęcenie klienta do zwrócenia uwagi na ofertę firmy.</p>
             </div>
             <div class="col-lg-4">
                 <h3 class="newsletter">MAILING</h3>
-                <p>W przeciwieństwie do newslettera mailing jest forma reklamy jednorazowej. Treści nie są wysyłane
-                    cyklicznie lecz są to pojedyncze maile mające na celu zainteresowanie produktem a nie budowanie
-                    długotrwałych relacji. Bardzo istotne sa kolory wiadomości oraz ilość zawartego w niej tekstu.</p>
+                <p>W przeciwieństwie do newslettera mailing jest forma reklamy jednorazowej. Treści nie są wysyłane cyklicznie lecz są to pojedyncze maile mające na celu zainteresowanie produktem a nie budowanie długotrwałych relacji. Bardzo istotne sa kolory wiadomości oraz ilość zawartego w niej tekstu.</p>
             </div>
             <div class="col-lg-4"><h3 class="newsletter">AUTORESPONDER</h3>
-                <p>Autoresponder jest bardzo podobny do newslettera. Newsletter jest jednorazową wiadomością, która jest
-                    tworzona i wysyłana w wybranym przez Ciebie czasie. Autoresponder jest wiadomością cykliczną,
-                    wysyłaną w ustalonych przez Ciebie interwałach liczonych od daty zapisania się Odbiorcy do Twojej
-                    listy lub na podstawie konkretnego wydarzenia.</p>
+                <p>Autoresponder jest bardzo podobny do newslettera. Newsletter jest jednorazową wiadomością, która jest tworzona i wysyłana w wybranym przez Ciebie czasie. Autoresponder jest wiadomością cykliczną, wysyłaną w ustalonych przez Ciebie interwałach liczonych od daty zapisania się Odbiorcy do Twojej listy lub na podstawie konkretnego wydarzenia.</p>
             </div>
 
         </div>
@@ -177,22 +158,25 @@
 <a name="aboutus"></a>
 <div class="aboutus">
     <div class="row">
-        <div class="col-md-6">
-            <img class="imgau" style="display: block;" src="pictures/aboutus.jpg" alt=""/>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="imgau" style="display: block;" src="lukasz.jpg" alt=""/>
+            <br><p class="names"><strong>Łukasz Abramczuk</strong>
+            <br>Front-end Developer</p>
         </div>
-        <div class="col-md-6">
-            <strong>- = POZNAJ JANUSZY PROGRAMOWANIA = -</strong>
-            <br><br>
-            <ul>
-                <li><b>Jakub Matwiejczyk</b><br>Front-End Developer</li>
-                <br>
-                <li><b>Łukasz Abramczuk</b><br>Front-End Developer</li>
-                <br>
-                <li><b>Daniel Jaremek</b><br>Front-End Developer</li>
-                <br>
-                <li><b>Piotr Psujek</b><br>Front-End Developer</li>
-
-            </ul>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="imgau" style="display: block;" src="kuba.jpg" alt=""/>
+           <br><p class="names"><strong>Jakub Matwiejczyk</strong>
+            <br>Front-end Developer</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="imgau" style="display: block;" src="daniel.jpg" alt=""/>
+            <br><p class="names"><strong>Daniel Jaremek</strong>
+            <br>Front-end Developer</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="imgau" style="display: block;" src="piotr.jpg" alt=""/>
+            <br><p class="names"><strong>Piotr Psujek</strong>
+            <br>Front-end Developer</p>
         </div>
     </div>
 
