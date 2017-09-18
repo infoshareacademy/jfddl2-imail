@@ -149,7 +149,7 @@ h3 {
 }
 
 .imgau {
-    height: 300px;
+    height: 400px;
     width: auto;
     margin: 0px auto;
     border-bottom-left-radius: 20%;
@@ -168,5 +168,9 @@ h3 {
     color: dimgrey;
     font-family: 'Ubuntu', sans-serif;
     text-align: right;
+}
+
+.names {
+    text-align: center;
 }
 
