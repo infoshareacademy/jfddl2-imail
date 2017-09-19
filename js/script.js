@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $(".navbar-toggle").on("click", function() {
+$(document).ready(function () {
+    $(".navbar-toggle").on("click", function () {
         $(this).toggleClass("active");
         if ($(window).width() < 768) {
             if ($(this).hasClass('active')) {
@@ -14,7 +14,7 @@ $(document).ready(function() {
     var footer = jQuery('footer'),
         header = jQuery('header'),
         fh = footer.height();
-    jQuery(window).on('scroll', function() {
+    jQuery(window).on('scroll', function () {
         var st = jQuery(this).scrollTop();
         // Fixed Footer
         if (footer.hasClass('fixed')) {
@@ -45,7 +45,7 @@ $(document).ready(function() {
             });
         }
 
-        jQuery(window).on('resize', function() {
+        jQuery(window).on('resize', function () {
             fh = footer.height();
             if (jQuery(window).width() > 767) {
                 jQuery('.content-wrapper').css({
@@ -57,5 +57,20 @@ $(document).ready(function() {
                 });
             }
         });
+    }
+});
+
+$().ready(function () {
+    var sName = "cookiesok";
+    $("#close-cookie-warn").click(function () {
+        var oExpire = new Date();
+        oExpire.setTime((new Date()).getTime() + 2000);
+        document.cookie = sName + "=1;expires=" + oExpire;
+        $("#cookie-warn").hide("slow");
+    });
+    var sStr = '; ' + document.cookie + ';';
+    var nIndex = sStr.indexOf('; ' + escape(sName) + '=');
+    if (nIndex === -1) {
+        $("#cookie-warn").show();
     }
 });
