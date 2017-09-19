@@ -136,6 +136,7 @@ article {
     margin-top: 1.5px;
     font-size: 1.1em;
     font-family: 'Ubuntu', sans-serif;
+
 }
 
 h3 {
@@ -152,6 +153,8 @@ h3 {
     border: 3px solid white;
     margin-top: 1.5px;
     font-family: 'Ubuntu', sans-serif;
+    display: table-cell;
+
 }
 
 .form {
