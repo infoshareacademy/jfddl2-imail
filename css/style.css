@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    font-family: 'Ubuntu', Arial;
+    font-size: 14px;
+    font-family: 'Oxygen', 'Ubuntu', Arial;
 }
 
 /*Navigation*/
@@ -15,7 +15,7 @@ header .navbar-toggle .icon-bar{position:relative;transition:all .5s ease-in-out
 .dropdown-menu{background-color: rgba(0, 0, 0, 0.7) !important}
 header .navbar-toggle.active .icon-bar:nth-of-type(1){top:6px;transform:rotate(45deg)}
 header .navbar-toggle.active .icon-bar:nth-of-type(3){top:-6px;transform:rotate(-45deg)}
-header #Main-navbar .nav>li>a{font-weight:700;padding:10px!important;font-size:15px;color:#fff!important;line-height:45px!important}
+header #Main-navbar .nav>li>a{font-weight:700;padding:10px!important;font-size:14px;color:#fff!important;line-height:45px!important}
 header #Main-navbar .nav>li>a:focus,header #Main-navbar .nav>li>a:hover{text-decoration:none;color: #ff0500 !important}
 header #Main-navbar .nav .dropdown-menu>li>a{font-weight:700;padding:0 20px!important;font-size:15px;color:#fff!important;line-height:45px!important}
 header #Main-navbar .nav .dropdown-menu>li>a:focus,header #Main-navbar .nav .dropdown-menu>li>a:hover{text-decoration:none;background-color:transparent!important;color: #ff0500 !important}
