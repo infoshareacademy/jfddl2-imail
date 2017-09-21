@@ -51,35 +51,15 @@ header .action-bar .my-account .popup{display:inline-block;pointer-events:none;p
 
 
 
-#wrapper {
-    /*width: auto;*/
-    /*height: 800px ;*/
-    /*background-image: url('pictures/bg_picture2.jpg');*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: left top;*/
-    /*background-size: cover;*/
-    /*position: relative;*/
-    font-size: 16px;
-}
+.wrapper img {
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    margin: 1px auto;
 
-article {
-    margin: 10px 0 20px 0;
-    color: white;
-    padding: 10px 10px;
-    font-size: 2.8em;
-    font-family: 'Ubuntu', Arial;
 }
 
 
-
-/*footer  {*/
-    /*background-color:black;*/
-    /*height: 140px;*/
-    /*color: white;*/
-    text-align-last: center;
-    /*padding: 10px;*/
-    /*margin-bottom: 30px;*/
-/*}*/
 
 #footer {
     background-color: black;
