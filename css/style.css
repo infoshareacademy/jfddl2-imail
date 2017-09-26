@@ -92,7 +92,7 @@ header .action-bar .my-account .popup{display:inline-block;pointer-events:none;p
 
 }
 
-.produkt {
+#product {
     background-color: black;
     height: auto;
     width: auto;
@@ -102,7 +102,7 @@ header .action-bar .my-account .popup{display:inline-block;pointer-events:none;p
     color: darkgrey;
 }
 
-.aboutus {
+#aboutus {
     background-color: lightgrey;
     height: auto;
     width: auto;
