@@ -10,61 +10,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/script.js"></script>
+
 
     <title>instantMail - Wysyłaj z nami !!</title>
 </head>
 
-<body>
+<body id="page-top">
 <section id="home">
-<!-- Navigation -->
-<div class="bg-item2" style="height:110px;">
-    <header>
-        <div id="bgBlack" class="container-fluid mg ">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-header ">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Main-navbar">
-                            <span class="icon-bar bg-white"></span>
-                            <span class="icon-bar bg-white"></span>
-                            <span class="icon-bar bg-white"></span>
-                        </button>
-                        <a class="navbar-brand brand " href="#">
-                            <img src="pictures/logo.png" alt="logo" class="pull-left animated bounceIn"/>
-                            <h4 id="sitename" class="text-white mg mg-t-5 animated fadeInRight">instantMail</h4>
-                            <h4 id="slogan" class="text-white mg animated fadeInRight">wysyłke zrobimy za Ciebie</h4>
-                        </a>
-                    </div>
-
-                    <div class="collapse navbar-collapse " id="Main-navbar">
-                        <ul class="nav navbar-nav ">
-                            <li>
-                                <a href="#home">Strona główna</a>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="#product" class="dropdown-toggle">Produkt</a>
-                            <li>
-                                <a href="#">Zagraj w gre</a>
-                            </li>
-                            <li id="studentmyprofile-1">
-                                <a href="#aboutus">Zespół</a>
-                            </li>
-                            <li id="gallery-1">
-                                <a href="#contact">Kontakt</a>
-                            </li>
-                            <li id="contact-1">
-                                <a href="#nletter">Newsletter</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#home">Strona główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#product">Produkt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#game">Zagraj w gre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#aboutus">Nasz Zespół</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#nletter">Newsletter</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </header>
-</div>
-
+    </nav>
+</section>
 <div class="wrapper">
         <img src="pictures/hero5.jpg">
 </div>
@@ -247,4 +233,15 @@
             <a href="javascript:void(0);" id="close-cookie-warn"
             >Zamknij ostrzeżenie</a></p>
     </section>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="js/scrolling-nav.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
