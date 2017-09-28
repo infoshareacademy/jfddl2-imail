@@ -31,7 +31,7 @@ header {
 
 .wrapper img {
     max-width: 100%;
-    /*max-height: auto;*/
+    max-height: 100vh;
     /*display: block;*/
     margin: 80px 0px 1px 0px;
 }
@@ -73,19 +73,19 @@ header {
 
 }
 
-#product {
+#product  {
     background-color: black;
-    height: auto;
+    height: 100%;
     width: auto;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     font-family: 'Ubuntu', sans-serif;
     color: darkgrey;
 }
 
 #aboutus {
     background-color: lightgrey;
-    height: auto;
+    height: 100%;
     width: auto;
     padding-top: 170px;
     padding-bottom: 100px;
@@ -248,3 +248,17 @@ footer.nb-footer .footer-info-single p {
 .imgau-wrapper {
     padding: 0 7%;
 }
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    font-size: 0em;
+    border: 1px darkgrey solid;
+}
+
