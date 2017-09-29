@@ -277,7 +277,7 @@ footer.nb-footer .footer-info-single p {
     padding: 0 7%;
 }
 
-.btn {
+.btnup  {
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
@@ -290,3 +290,18 @@ footer.nb-footer .footer-info-single p {
     border: 1px darkgrey solid;
 }
 
+.btninvite {
+    height: 4rem;
+    width: 17rem;
+    position: absolute;
+    left: 837px;
+    top: 420px;
+    animation: bounceIn 0.5s;
+    color: black;
+    font-size: 15px;
+
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+    /*color: black;*/
+    /*font-size: 0em;*/
+    /*border: 1px darkgrey solid;*/
+}

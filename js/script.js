@@ -16,7 +16,7 @@ $().ready(function () {
 });
 
 $(document).ready(function(){
-    $(".btn").click(function(){
+    $(".btnup").click(function(){
         $("html,body").animate({scrollTop:0},500);
     });
 });
