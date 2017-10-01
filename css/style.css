@@ -39,18 +39,20 @@ header {
 .wrapper .logo {
     position: absolute;
     animation: bounceIn 1.1s;
-    top: 25rem;
-    left: 25rem;
-    height: 25%;
+    top: 25%;
+    left: 15%;
+    height: auto;
+    max-width: 25vw;
+    display: block;
+
 }
 
 .animetxt {
     position: absolute;
     z-index: 2;
-    top: 26rem;
-    left: 84rem;
+    top: 40%;
+    right: 20%;
     color: white;
-
 }
 
 .animetxt h1 {
