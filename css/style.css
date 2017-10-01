@@ -15,6 +15,9 @@ header {
     }
 }
 
+p.news {
+    font-size: large;
+}
 
 .navbar {
     padding: 1.5rem 1rem;
@@ -131,6 +134,15 @@ h3 {
     font-size: 1.2em;
 }
 
+h10 {
+
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.form .row .koperta  {
+    text-align: center;
+}
 .imgau {
     max-width: 100%;
     margin: 0px auto;
@@ -146,11 +158,12 @@ h3 {
     background-color: white;
     /*height: auto;*/
     /*width: auto;*/
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 180px;
+    padding-bottom: 180px;
     color: dimgrey;
-    font-family: 'Ubuntu', sans-serif;
     text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .row    {
@@ -306,4 +319,11 @@ footer.nb-footer .footer-info-single p {
     /*color: black;*/
     /*font-size: 0em;*/
     /*border: 1px darkgrey solid;*/
+}
+
+.btnletter  {
+    font-size: 12px;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
 }

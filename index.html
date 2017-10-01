@@ -5,8 +5,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oxygen&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
@@ -18,7 +18,7 @@
 
     <title>instantMail - Wysyłaj z nami !!</title>
 </head>
-<body id="page-top">
+<section id="page-top">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
@@ -41,11 +41,12 @@
                     <a class="nav-link js-scroll-trigger" href="#aboutus">Nasz Zespół</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#nletter">Newsletter</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
                 </li>
-                <!--<li class="nav-item">-->
-                <!--<a class="nav-link js-scroll-trigger" href="#nletter">Newsletter</a>-->
-                <!--</li>-->
+
             </ul>
         </div>
     </div>
@@ -176,38 +177,31 @@
     </div>
 </section>
 
-<section id="contact">
+<section id="nletter">
 
     <div class="form">
         <div class="row">
             <div class="col-md-3">
             </div>
 
-            <div class="col-md-3">
-                Newsletter - Zapisz się na premiere gry.
+            <div class="col-md-3 koperta">
+                <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                <p class="news">Newsletter</p>
             </div>
             <div class="col-md-3">
-                <h10 class="p1">Formularz kontaktowy</h10>
-                <form id="contact-form" action="mailto:sajko77@gmail.com" method="post" enctype="multipart/form-data">
+                <h10 class="p1">Zapisz się na premierę gry</h10><br>
+                <h10 class="p1">i wypełnij formularz kontaktowy</h10>
+                <p></p>
+                <form id="contact-form" action="https://formspree.io/sajko77@gmail.com" method="POST">
                     <fieldset>
                         <label><span class="text-form">Imię:</span>
                             <input name="name" type="text" />
                         </label>
-                        <label><span class="text-form">E-mail:</span>
-                            <input name="email" type="text" />
+                        <label><span class="text-form">e-mail:</span>
+                            <input name="_replyto" type="email" />
                         </label>
-                        <label><span class="text-form">Telefon:</span>
-                            <input name="phone" type="text" />
-                        </label>
-                        <div class="wrapper">
-                            <div class="text-form">Treść:</div>
-                            <div class="extra-wrap">
-                                <textarea></textarea>
-                                <div class="clear"></div>
-                                <div class="buttons"> <a class="button" href="#">Wyczyść</a> <a class="button" href="#">Wyślij</a> </div>
-                            </div>
-                        </div>
                     </fieldset>
+                    <input class="btn btn-warning btnletter" type="submit" value="Wyślij">
                 </form>
             </div>
         </div>
@@ -216,6 +210,8 @@
 
 
 <!--FOOTER-->
+<section id="contact">
+
 <footer class="nb-footer">
     <div class="container">
         <div class="row">
@@ -286,6 +282,7 @@
     </div>
 </footer>
 
+</section>
 <button type="button" class="btn btnup btn-default" aria-label="Left Align">
         <span class="glyphicon glyphicon glyphicon-menu-up" aria-hidden="true">
         </span>
