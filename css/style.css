@@ -52,7 +52,24 @@ header {
     nav  {
         width: 100vw;
     }
+
+    section#product  {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    section#aboutus {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    section#nletter .form {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
 }
+
 
 p.news {
     font-size: large;
