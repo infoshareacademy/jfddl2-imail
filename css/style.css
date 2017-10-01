@@ -9,10 +9,10 @@ header {
     padding: 154px 0 100px;
 }
 
-@media (min-width: 992px) {
-    header {
-        padding: 156px 0 0px;
-    }
+/*@media (min-width: 992px) {*/
+    /*header {*/
+        /*padding: 156px 0 0px;*/
+    /*}*/
 }
 
 
@@ -47,6 +47,10 @@ header {
 
     #home .wrapper .logo {
         top: 20%;
+    }
+
+    nav  {
+        width: 100vw;
     }
 }
 
