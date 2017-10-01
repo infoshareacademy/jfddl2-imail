@@ -187,16 +187,27 @@
                 Newsletter - Zapisz się na premiere gry.
             </div>
             <div class="col-md-3">
-                <form>
-                    <label>imię i nazwisko</label>
-                    <input name="name" placeholder="">
-                    <br>
-                    <label>adres e-mail</label>
-                    <input name="email" type="email" placeholder="">
-                    <br>
-                    <input id="submit" name="submit" type="button" class="btn btn-success" value="Wyślij">
-                    <div class="col-md-3">
-                    </div>
+                <h10 class="p1">Formularz kontaktowy</h10>
+                <form id="contact-form" action="mailto:sajko77@gmail.com" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <label><span class="text-form">Imię:</span>
+                            <input name="name" type="text" />
+                        </label>
+                        <label><span class="text-form">E-mail:</span>
+                            <input name="email" type="text" />
+                        </label>
+                        <label><span class="text-form">Telefon:</span>
+                            <input name="phone" type="text" />
+                        </label>
+                        <div class="wrapper">
+                            <div class="text-form">Treść:</div>
+                            <div class="extra-wrap">
+                                <textarea></textarea>
+                                <div class="clear"></div>
+                                <div class="buttons"> <a class="button" href="#">Wyczyść</a> <a class="button" href="#">Wyślij</a> </div>
+                            </div>
+                        </div>
+                    </fieldset>
                 </form>
             </div>
         </div>
