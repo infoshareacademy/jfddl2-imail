@@ -9,11 +9,11 @@ header {
     padding: 154px 0;
 }
 
-/*@media (min-width: 992px) {*/
-    /*header {*/
-        /*!*padding: 156px 0 0px;*!*/
-    /*}*/
-/*}*/
+@media (min-width: 992px) {
+    header {
+        padding: 156px 0 110px;
+    }
+}
 
 @media (max-width: 480px) {
     #home .wrapper h1 {
@@ -22,16 +22,16 @@ header {
     }
 
     #home .wrapper h4 {
-        font-size: 1.0em;
+        font-size: 1.3em;
     }
 
     #home .animetxt {
-        top: 25%;
+        top: 20%;
         right: 5%;
     }
 
     #home .wrapper .logo {
-        top: 25%;
+        top: 20%;
     }
 }
 
