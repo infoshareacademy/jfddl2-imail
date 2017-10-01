@@ -9,11 +9,11 @@ header {
     padding: 154px 0;
 }
 
-@media (min-width: 992px) {
-    header {
-        /*padding: 156px 0 0px;*/
-    }
-}
+/*@media (min-width: 992px) {*/
+    /*header {*/
+        /*!*padding: 156px 0 0px;*!*/
+    /*}*/
+/*}*/
 
 @media (max-width: 480px) {
     #home .wrapper h1 {
@@ -30,8 +30,9 @@ header {
         right: 5%;
     }
 
-    #home .wrapper .logo  {
+    #home .wrapper .logo {
         top: 25%;
+    }
 }
 
 p.news {
