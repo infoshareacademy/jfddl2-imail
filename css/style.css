@@ -6,13 +6,32 @@
 }
 
 header {
-    padding: 154px 0 100px;
+    padding: 154px 0;
 }
 
 @media (min-width: 992px) {
     header {
-        padding: 156px 0 0px;
+        /*padding: 156px 0 0px;*/
     }
+}
+
+@media (max-width: 480px) {
+    #home .wrapper h1 {
+        font-size: 0.9em;
+        top: 1px;
+    }
+
+    #home .wrapper h4 {
+        font-size: 1.0em;
+    }
+
+    #home .animetxt {
+        top: 25%;
+        right: 5%;
+    }
+
+    #home .wrapper .logo  {
+        top: 25%;
 }
 
 p.news {
@@ -161,8 +180,6 @@ h10 {
 }
 
 .imgau:hover {
-    /*animation: bounceIn 0.6s;*/
-    /*transform: rotate(30deg);*/
     -webkit-transform: scale(1.1);
 }
 
@@ -344,3 +361,4 @@ footer.nb-footer .footer-info-single p {
     padding: 8px 15px;
     border-radius: 5px;
 }
+
