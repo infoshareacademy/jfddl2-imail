@@ -399,3 +399,7 @@ footer.nb-footer .footer-info-single p {
     border-radius: 5px;
 }
 
+nav img    {
+    height: 15px;
+    width: auto;
+}
