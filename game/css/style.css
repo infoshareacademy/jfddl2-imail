@@ -155,6 +155,13 @@
     background-color: white;
 }
 .timer{
-    background-color: red;
+    /*background-color: red;*/
     color: black;
+    font-size: 40px;
+}
+
+.score  {
+    font-size: 40px;
+    color: green;
+    float: right;
 }
