@@ -300,8 +300,25 @@ footer.nb-footer .footer-info-single p {
     color: black;
     font-size: 15px;
 
-    /*background-color: rgba(255, 255, 255, 0.2);*/
-    /*color: black;*/
-    /*font-size: 0em;*/
-    /*border: 1px darkgrey solid;*/
+}
+/*Newsletter*/
+
+
+.footer_top {
+    display: block;
+    background: #232323;
+    border-bottom: 1px solid #323232;
+    border-top: 1px solid #323232;
+    padding: 12px 0;
+    text-align: center;
+    box-sizing: border-box;
+    touch-action: auto !important;
+}
+
+
+.newsletter {
+    display: block;
+    background-color: black;
+    border-bottom: 1px solid #323232;
+    text-align: center;
 }
