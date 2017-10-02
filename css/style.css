@@ -68,6 +68,13 @@ header {
         padding-bottom: 70px;
     }
 
+    section#home .btngame {
+        top: 30%;
+        right: 10%;
+        height: 2.7rem;
+        width: 9rem;
+        font-size: 1.1rem;
+    }
 }
 
 
@@ -399,7 +406,21 @@ footer.nb-footer .footer-info-single p {
     border-radius: 5px;
 }
 
+.btngame    {
+
+    height: 3.5rem;
+    width: 13rem;
+    position: absolute;
+    right: 39%;
+    top: 60%;
+    animation: bounceIn 0.5s;
+    color: black;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
 nav img    {
     height: 15px;
     width: auto;
 }
+
