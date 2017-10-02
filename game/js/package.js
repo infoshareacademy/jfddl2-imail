@@ -67,7 +67,7 @@ Package.prototype.remove = function () {
     this.handle.remove();
     clearInterval(this.intervalId);
 };
-
+var score = 0;
 Package.prototype.checkCollision = function () {
     var bottomPositionOfPackage = parseInt(
         this.handle.css('bottom').replace('px', '')
@@ -90,5 +90,8 @@ Package.prototype.checkCollision = function () {
         &&
         leftPositionOfPackage <= rightPositionOfBoy) {
         console.log('Same positnio')
+        score += 1;
+        this.remove();
+        $('.score').empty().append(score);
     }
 };
