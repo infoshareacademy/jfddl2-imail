@@ -182,8 +182,8 @@ p.news {
     background-color: white;
     height: 100%;
     width: auto;
-    padding-top: 170px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 20px;
     margin-top: 1.5px;
     font-size: 1.1em;
     font-family: 'Ubuntu', sans-serif;
@@ -207,7 +207,7 @@ h10 {
     text-align: center;
 }
 .imgau {
-    max-width: 100%;
+    max-width: 60%;
     margin: 0px auto;
     box-shadow: 5px 5px 10px;
     border-radius: 63px;
