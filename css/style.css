@@ -9,11 +9,6 @@ header {
     padding: 154px 0 100px;
 }
 
-/*@media (min-width: 992px) {*/
-    /*header {*/
-        /*padding: 156px 0 0px;*/
-    /*}*/
-}
 
 
 .navbar {
@@ -225,7 +220,7 @@ h10 {
     max-width: 60%;
     margin: 0px auto;
     box-shadow: 5px 5px 10px;
-    border-radius: 63px;
+    border-radius: 30px;
     border: 3px solid white;
     margin-top: 1.5px;
     font-family: 'Ubuntu', sans-serif;
@@ -237,8 +232,6 @@ h10 {
 
 .form {
     background-color: lightgrey;
-    /*height: auto;*/
-    /*width: auto;*/
     padding-top: 260px;
     padding-bottom: 275px;
     color: dimgrey;
@@ -339,16 +332,15 @@ footer.nb-footer .footer-info-single {
 }
 
 footer.nb-footer .footer-info-single .title {
-    color: #aaa;
+    color: white;
     text-transform: uppercase;
     font-size: 16px;
-    border-left: 4px solid #af0005;
     padding-left: 5px;
 }
 
 footer.nb-footer .footer-info-single ul li a {
     display: block;
-    color: #aaa;
+    color: white;
     padding: 2px 0;
     text-decoration: none;
 }
@@ -360,19 +352,10 @@ footer.nb-footer .footer-info-single ul li a:hover {
 footer.nb-footer .footer-info-single p {
     font-size: 13px;
     line-height: 20px;
-    color: #aaa;
+    color: white;
 }
 
-/*footer.nb-footer .copyright {*/
-    /*margin-top: 15px;*/
-    /*background: #111;*/
-    /*padding: 7px 0;*/
-    /*color: #999;*/
-/*}*/
 
-/*footer.nb-footer .copyright p {*/
-    /*margin: 0;*/
-    /*padding: 0;*/
 
 .imgau-wrapper {
     padding: 0 7%;
@@ -391,21 +374,6 @@ footer.nb-footer .footer-info-single p {
     border: 1px darkgrey solid;
 }
 
-/*.btninvite {*/
-    /*height: 4rem;*/
-    /*width: 17rem;*/
-    /*position: absolute;*/
-    /*left: 837px;*/
-    /*top: 420px;*/
-    /*animation: bounceIn 0.5s;*/
-    /*color: black;*/
-    /*font-size: 15px;*/
-
-    /*background-color: rgba(255, 255, 255, 0.2);*/
-    /*color: black;*/
-    /*font-size: 0em;*/
-    /*border: 1px darkgrey solid;*/
-}
 
 .btnletter  {
     font-size: 12px;
@@ -433,3 +401,6 @@ nav img    {
     width: auto;
 }
 
+.footer-info-single {
+    text-align: center;
+}
