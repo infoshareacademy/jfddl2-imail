@@ -75,6 +75,14 @@ header {
         width: 9rem;
         font-size: 1.1rem;
     }
+
+    section#home .btngameen {
+        top: 30%;
+        right: 10%;
+        height: 2.7rem;
+        width: 9rem;
+        font-size: 1.1rem;
+    }
 }
 
 
@@ -406,12 +414,13 @@ footer.nb-footer .footer-info-single p {
     border-radius: 5px;
 }
 
-.btngame    {
+.btngame,
+.btngameen  {
 
     height: 3.5rem;
     width: 13rem;
     position: absolute;
-    right: 39%;
+    right: 33%;
     top: 60%;
     animation: bounceIn 0.5s;
     color: black;
