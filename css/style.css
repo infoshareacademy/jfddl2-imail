@@ -120,7 +120,7 @@ p.news {
     position: absolute;
     animation: bounceIn 1.1s;
     top: 30%;
-    left: 15%;
+    left: 10%;
     height: auto;
     max-width: 27vw;
     display: block;
